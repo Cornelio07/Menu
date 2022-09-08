@@ -1,6 +1,3 @@
-# @autor: Magno Efren
-# Youtube: https://www.youtube.com/c/MagnoEfren
-
 import sys
 from menu import *
 from PyQt5 import QtCore
@@ -95,9 +92,9 @@ class MiApp(QtWidgets.QMainWindow):
 
 
 if __name__ == "__main__":
-     app = QtWidgets.QApplication(sys.argv)
-     mi_app = MiApp()
-     mi_app.show()
-     sys.exit(app.exec_())	
+	app = QtWidgets.QApplication(sys.argv)
+	mi_app = MiApp()
+	mi_app.show()
+	sys.exit(app.exec_())	
 
 
